@@ -1,0 +1,16 @@
+0 Weekday_Name.Friday i
+1 Weekday_Name.Monday i
+2 Weekday_Name.Saturday i
+3 Weekday_Name.Sunday i
+4 Weekday_Name.Thursday i
+5 Weekday_Name.Tuesday i
+6 Weekday_Name.Wednesday i
+7 Weekday_Name.missing(NA) i
+8 tz int
+9 Date int
+10 Time int
+11 Month int
+12 day int
+13 hours int
+14 Day_of_Week int
+15 weekend int

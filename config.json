@@ -1,0 +1,49 @@
+{
+  "problem_type": "H2ORegression",
+  "input_dir": "./data",
+  "input_settings": {
+    "input_type": "csv"
+  },
+  "features": [
+    {
+      "code": "column_identifier1",
+      "type": "number"
+    },
+    {
+      "code": "column_identifier2",
+      "type": "int"
+    },
+    {
+      "code": "column_identifier3",
+      "type": "string"
+    },
+     {
+      "code": "column_identifier4",
+      "type": "float64"
+    },
+    {
+      "code": "column_identifier5",
+      "type": "datetime"
+    }
+  ],
+  "predict_feature": "column_identifier",
+  "hyperparameters": [
+    {
+      "code": "hyperparameter_name",
+      "min_value": 1,
+      "max_value": 3,
+      "increase_step": 0.5
+    },
+    {
+      "code": "hyperparameter_name2",
+      "min_value": 0.5,
+      "max_value": 1,
+      "increase_step": 0.01
+    }
+  ],
+  "output_dir": "./data_output",
+  "output_settings": {
+    "statistics": true,
+    "metrics": true
+  }
+}
